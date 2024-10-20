@@ -1,0 +1,9 @@
+#to find all roots of quadratic equation
+a=int(input("enter a:"))
+b=int(input("enter b:"))
+c=int(input("enter c:"))
+D=(b**2)-(4*a*c)
+print("the value of discriminantis",D)
+sol1=(-b+D**0.5/2*a)
+sol2=(+b-D**0.5/2*a)
+print("the roots of this quadratic equations are",sol1,"and",sol2)
