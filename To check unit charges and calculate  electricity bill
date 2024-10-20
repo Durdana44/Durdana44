@@ -1,0 +1,17 @@
+#to check unit charges and calculate electricity bill
+x=int(input("enter no. of units consumed"))
+if(x==50):
+    amt=x*0.50
+    print("amount to be paid=", amt)
+elif(x<=150 and x>50):
+    amt=(50*0.50)+((x-50)*0.75)
+    print("amount to be paid=",amt)
+elif(x<=250 and x>150):
+    amt=(50*0.50)+(100*0.75)+((x-150)*1.20)
+    print("amount to be paid=",amt)
+else:
+    amt=(50*0.50)+(100*0.75)+(100*1.20)+((x-250)*1.50)
+    print("amount to be paid is:",amt)
+surcharge=(20/100)* amt
+total_bill= amt+surcharge 
+print("total bill to be paid=",total_bill)
