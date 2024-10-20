@@ -1,0 +1,22 @@
+#to calculate percentage and grade of five subjects
+physics=int(input("enter marks "))
+chem=int(input("enter marks"))
+bio=int(input("enter marks"))
+maths=int(input("enter marks"))
+computer=int(input("enter marks"))
+total=physics+chem+bio+maths+computer
+percentage=((total/500)*100)
+if percentage>=90:
+    grade="grade A"
+elif percentage>=80:
+    grade="grade B"
+elif percentage>=70:
+    grade="grade C"
+elif percentage>=60:
+    grade="grade D"
+elif percentage>=40:
+    grade="grade E"
+else:
+    grade="grade F"
+print(f"percentage={percentage:.2f}")
+print(grade)
