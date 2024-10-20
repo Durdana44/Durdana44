@@ -1,0 +1,9 @@
+#to input angles of triangle and check whether triangle is valid or not
+A=int(input("enter the angle"))
+B=int(input("enter the angle"))
+C=int(input("enter the angle"))
+S=A+B+C 
+if S==180:
+    print("the triangle is valid")
+else:
+    print("the triangle is invalid")
