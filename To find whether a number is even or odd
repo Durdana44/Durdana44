@@ -1,0 +1,7 @@
+#to find whether a number is even or odd
+e=int(input("Enter any number:"))
+r= e%2
+if (r == 0) :
+    print(e,"is an Even number")
+else :
+    print(e,"is not an Even number")
