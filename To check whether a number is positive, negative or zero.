@@ -1,0 +1,9 @@
+#Whether a no. is positive,negative or zero
+d=int(input("Enter any number:"))
+
+if (d > 0) :
+    print(d,"is a positive number")
+elif (d == 0) :
+    print(d,"is zero")
+else :
+    print(d,"is a negative number")
